@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranveer Singh — Fashion & Lifestyle Model</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Bebas+Neue&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-line"></div>
+      <div class="loader-text">
+        <span>R</span><span>A</span><span>N</span><span>V</span><span>E</span><span>E</span><span>R</span>
+      </div>
+      <div class="loader-sub">Fashion &amp; Lifestyle Model</div>
+      <div class="loader-progress"><div class="loader-bar" id="loaderBar"></div></div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">RS</div>
+    <div class="nav-menu" id="navMenu">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#stats" class="nav-link">Stats</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#achievements" class="mobile-link">Achievements</a>
+    <a href="#gallery" class="mobile-link">Gallery</a>
+    <a href="#stats" class="mobile-link">Stats</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/img2.jpeg" alt="Ranveer Singh" class="hero-img" id="heroBg" />
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow reveal-up">Fashion &amp; Lifestyle Model</div>
+      <h1 class="hero-name">
+        <span class="hero-name-line reveal-clip" style="--d:0.1s">Ranveer</span>
+        <span class="hero-name-line reveal-clip" style="--d:0.3s">Singh</span>
+      </h1>
+      <div class="hero-location reveal-up" style="--d:0.5s">Rajasthan, India — 2026</div>
+      <div class="hero-cta reveal-up" style="--d:0.7s">
+        <a href="#gallery" class="btn-primary">View Portfolio</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+    <div class="hero-number">01</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section-reveal" id="about">
+    <div class="about-grid">
+      <div class="about-image-col">
+        <div class="about-img-wrap">
+          <img src="images/img5.jpeg" alt="Ranveer Singh" class="about-img" loading="lazy" />
+          <div class="about-img-label">Editorial · 2026</div>
+        </div>
+        <div class="about-img-wrap about-img-secondary">
+          <img src="images/img3.jpeg" alt="Ranveer Singh" class="about-img" loading="lazy" />
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-tag">About</div>
+        <h2 class="section-title">The Face<br /><em>Behind the Frame</em></h2>
+        <p class="about-text">Hi, I'm Ranveer Singh — an aspiring fashion and lifestyle model focused on building a powerful, industry-level portfolio that reflects <strong>confidence, personality, versatility,</strong> and strong camera presence.</p>
+        <p class="about-text">I'm actively growing my career in modeling and continuously working on improving my fashion sense, posing, expressions, physique, and overall visual identity.</p>
+        <p class="about-text">Recently, I achieved <strong>3rd place in Parul University Season 3 – PU's Rising Star</strong>, which helped me gain more exposure, confidence, and experience in front of audiences and judges. I was also a finalist in the <strong>Mr. and Miss DOOM</strong> competition, where I successfully cleared multiple rounds and reached the final stage. I was also featured in a magazine shoutout.</p>
+        <p class="about-text">These experiences strengthened my stage presence, confidence, grooming, and modeling abilities.</p>
+        <div class="about-metrics">
+          <div class="metric"><span class="metric-num">21</span><span class="metric-label">Years Old</span></div>
+          <div class="metric"><span class="metric-num">184</span><span class="metric-label">cm Height</span></div>
+          <div class="metric"><span class="metric-num">3+</span><span class="metric-label">Competitions</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-number">02</div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements section-reveal" id="achievements">
+    <div class="achievements-inner">
+      <div class="section-tag">Recognition</div>
+      <h2 class="section-title centered">Achievements &amp;<br /><em>Milestones</em></h2>
+      <div class="achievements-grid">
+        <div class="achievement-card" data-delay="0">
+          <div class="achievement-icon">🏆</div>
+          <div class="achievement-rank">3rd Place</div>
+          <div class="achievement-title">PU's Rising Star</div>
+          <div class="achievement-sub">Parul University Season 3</div>
+          <div class="achievement-desc">Competed against top contestants and earned podium recognition, gaining stage confidence and industry exposure.</div>
+          <div class="achievement-glow"></div>
+        </div>
+        <div class="achievement-card featured" data-delay="0.15">
+          <div class="achievement-icon">👑</div>
+          <div class="achievement-rank">Finalist</div>
+          <div class="achievement-title">Mr. &amp; Miss DOOM</div>
+          <div class="achievement-sub">Multi-Round Competition</div>
+          <div class="achievement-desc">Cleared auditions, round one, round two, and reached the final stage. A testament to consistency and competitive drive.</div>
+          <div class="achievement-glow"></div>
+        </div>
+        <div class="achievement-card" data-delay="0.3">
+          <div class="achievement-icon">📰</div>
+          <div class="achievement-rank">Featured</div>
+          <div class="achievement-title">Magazine Shoutout</div>
+          <div class="achievement-sub">Editorial Feature</div>
+          <div class="achievement-desc">Recognized in a fashion publication, marking the beginning of editorial media presence and growing brand identity.</div>
+          <div class="achievement-glow"></div>
+        </div>
+        <div class="achievement-card" data-delay="0.45">
+          <div class="achievement-icon">📈</div>
+          <div class="achievement-rank">Growing</div>
+          <div class="achievement-title">Fashion &amp; Lifestyle Model</div>
+          <div class="achievement-sub">Active Portfolio Development</div>
+          <div class="achievement-desc">Continuously expanding visual identity, posing range, fashion versatility, and professional network in the industry.</div>
+          <div class="achievement-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-number">03</div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section-reveal" id="gallery">
+    <div class="gallery-header">
+      <div class="section-tag">Portfolio</div>
+      <h2 class="section-title centered">Visual<br /><em>Portfolio</em></h2>
+    </div>
+
+    <!-- Featured full-width -->
+    <div class="gallery-featured">
+      <div class="gallery-item gallery-large" data-src="images/img2.jpeg">
+        <img src="images/img2.jpeg" alt="Night Editorial" loading="lazy" />
+        <div class="gallery-overlay">
+          <span class="gallery-label">Night Editorial</span>
+          <span class="gallery-category">Streetwear · Dark</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Masonry row -->
+    <div class="gallery-masonry">
+      <div class="gallery-item gallery-tall" data-src="images/img4.jpeg">
+        <img src="images/img4.jpeg" alt="Minimal Portrait" loading="lazy" />
+        <div class="gallery-overlay">
+          <span class="gallery-label">Minimal Portrait</span>
+          <span class="gallery-category">B&W Editorial</span>
+        </div>
+      </div>
+      <div class="gallery-item gallery-col-right">
+        <div class="gallery-item gallery-medium" data-src="images/img3.jpeg">
+          <img src="images/img3.jpeg" alt="Studio Clean" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-label">Studio Clean</span>
+            <span class="gallery-category">Fashion · Minimal</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-medium" data-src="images/img6.jpeg">
+          <img src="images/img6.jpeg" alt="Heritage Lifestyle" loading="lazy" />
+          <div class="gallery-overlay">
+            <span class="gallery-label">Heritage Lifestyle</span>
+            <span class="gallery-category">Ethnic · Lifestyle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom row -->
+    <div class="gallery-row">
+      <div class="gallery-item" data-src="images/img5.jpeg">
+        <img src="images/img5.jpeg" alt="Stage Presence" loading="lazy" />
+        <div class="gallery-overlay">
+          <span class="gallery-label">Stage Presence</span>
+          <span class="gallery-category">Runway · Traditional</span>
+        </div>
+      </div>
+      <div class="gallery-item" data-src="images/img1.jpeg">
+        <img src="images/img1.jpeg" alt="Power Walk" loading="lazy" />
+        <div class="gallery-overlay">
+          <span class="gallery-label">Power Walk</span>
+          <span class="gallery-category">Formal · Event</span>
+        </div>
+      </div>
+    </div>
+    <div class="section-number">04</div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-close" id="lightboxClose">✕</div>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <!-- STATS -->
+  <section class="stats section-reveal" id="stats">
+    <div class="stats-bg-text">RANVEER</div>
+    <div class="stats-inner">
+      <div class="section-tag centered">Numbers</div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-num" data-target="21">0</div>
+          <div class="stat-unit">Years</div>
+          <div class="stat-label">Age</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="184">0</div>
+          <div class="stat-unit">CM</div>
+          <div class="stat-label">Height</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="3">0</div>
+          <div class="stat-unit">+</div>
+          <div class="stat-label">Competitions</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="6">0</div>
+          <div class="stat-unit">Shots</div>
+          <div class="stat-label">Portfolio</div>
+        </div>
+      </div>
+      <div class="stats-details">
+        <div class="stats-detail-item"><span class="detail-label">Location</span><span class="detail-value">Rajasthan, India</span></div>
+        <div class="stats-detail-item"><span class="detail-label">Portfolio Type</span><span class="detail-value">Fashion &amp; Lifestyle</span></div>
+        <div class="stats-detail-item"><span class="detail-label">Available For</span><span class="detail-value">Agencies · Campaigns · Editorial</span></div>
+      </div>
+    </div>
+    <div class="section-number">05</div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="instagram section-reveal" id="instagram">
+    <div class="instagram-inner">
+      <div class="instagram-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+      <div class="instagram-handle">@rnveerrrrr_singhhh</div>
+      <p class="instagram-desc">Follow along the journey — behind the scenes, editorial shoots, and everyday fashion moments.</p>
+      <a href="https://www.instagram.com/rnveerrrrr_singhhh" target="_blank" rel="noopener" class="btn-instagram">Follow on Instagram</a>
+    </div>
+    <div class="section-number">06</div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section-reveal" id="contact">
+    <div class="contact-inner">
+      <div class="section-tag">Let's Connect</div>
+      <h2 class="section-title">Ready to<br /><em>Collaborate?</em></h2>
+      <p class="contact-sub">Available for agency representation, brand campaigns, editorial shoots, event appearances, and luxury collaborations.</p>
+      <div class="contact-cards">
+        <a href="tel:+919784324521" class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.05 9.76 19.79 19.79 0 01.01 1.07 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Phone</span>
+            <span class="contact-card-value">+91 97843 24521</span>
+          </div>
+        </a>
+        <a href="mailto:ranveersingh179005@gmail.com" class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">ranveersingh179005@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/rnveerrrrr_singhhh" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Instagram</span>
+            <span class="contact-card-value">@rnveerrrrr_singhhh</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="section-number">07</div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">RS</div>
+      <div class="footer-name">Ranveer Singh</div>
+      <div class="footer-tagline">Fashion &amp; Lifestyle Model · Rajasthan, India</div>
+      <div class="footer-divider"></div>
+      <div class="footer-copy">© 2026 Ranveer Singh. All rights reserved.</div>
+    </div>
+    <div class="footer-bg-text">SINGH</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
